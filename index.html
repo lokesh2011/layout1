@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #bar {
+        height: 20px;
+        width: 100%;
+        background-color: black;
+      }
+      #container {
+        width: 90%;
+        margin: 0 auto;
+      }
+      #header {
+        height: 80px;
+        width: 100%;
+        background-color: white;
+      }
+      #banner {
+        height: 400px;
+        width: 100%;
+        background-color: blueviolet;
+        margin-bottom: 10px;
+      }
+      #box1 {
+        height: 200px;
+        width: 32%;
+        background-color: brown;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+      #box2 {
+        height: 200px;
+        width: 32%;
+        background-color: rgb(142, 165, 42);
+        float: left;
+        padding: 5px;
+      }
+      #box3 {
+        height: 200px;
+        width: 32%;
+        background-color: rgb(42, 91, 165);
+        float: right;
+        padding: 5px;
+      }
+      #box4 {
+        height: 200px;
+        width: 58%;
+        clear: both;
+        background-color: white;
+        float: left;
+        padding: 10px 10px 15px 10px;
+      }
+      #box5 {
+        height: 200px;
+        width: 40%;
+        background-color: white;
+        float: right;
+      }
+      #footer {
+        height: 30px;
+        width: 100%;
+        background-color: black;
+        clear: both;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+      }
+      #header img {
+        height: 80px;
+        float: left;
+      }
+      #header ul {
+        float: right;
+        margin-top: 30px;
+      }
+      #header ul li {
+        display: inline;
+        margin-right: 30px;
+      }
+      #header a {
+        text-decoration: none;
+        color: black;
+      }
+      #banner img {
+        height: 400px;
+        width: 100%;
+      }
+      h3 {
+        color: white;
+        padding: 10px;
+      }
+      p {
+        color: white;
+        margin-bottom: 10px;
+      }
+      a {
+        background-color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+      h2 {
+        padding: 10px;
+      }
+      .p1 {
+        color: black;
+      }
+      #box5 img {
+        height: 170px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bar"></div>
+    <div id="container">
+      <div id="header">
+        <img src="./head.jfif" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div id="banner"><img src="banner.jfif" alt="" /></div>
+      <div id="box1">
+        <h3>Welcome</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+          totam laboriosam illum expedita odit alias. Dolore perspiciatis
+          asperiores dolor, voluptatem, placeat soluta, numquam odit adipisci
+          explicabo harum eius quos quia officia exercitationem dolorum
+          doloremque quasi repellat! Quasi earum blanditiis,
+        </p>
+        <a href="#">Read more</a>
+      </div>
+      <div id="box2">
+        <h3>Services</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+          totam laboriosam illum expedita odit alias. Dolore perspiciatis
+          asperiores dolor, voluptatem, placeat soluta, numquam odit adipisci
+          explicabo harum eius quos quia officia exercitationem dolorum
+          doloremque quasi repellat! Quasi earum blanditiis,
+        </p>
+        <a href="#">Read more</a>
+      </div>
+      <div id="box3">
+        <h3>About Us</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+          totam laboriosam illum expedita odit alias. Dolore perspiciatis
+          asperiores dolor, voluptatem, placeat soluta, numquam odit adipisci
+          explicabo harum eius quos quia officia exercitationem dolorum
+          doloremque quasi repellat! Quasi earum blanditiis,
+        </p>
+        <a href="#">Read more</a>
+      </div>
+      <div id="box4">
+        <h2>Sample</h2>
+        <p class="p1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          eveniet placeat dolorem ipsa, itaque perspiciatis eius, eos voluptas
+          quisquam facere, dignissimos repellendus commodi laboriosam esse!
+          Veritatis suscipit corrupti illum ipsa? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit.
+        </p>
+        <h2>Sample</h2>
+        <p class="p1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iure ut
+          qui dolores doloribus nesciunt fugit, beatae nam culpa, nobis
+          consectetur ipsa excepturi mollitia quaerat a, quos iusto earum eius!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+      <div id="box5">
+        <h2>Sample</h2>
+        <img src="./image.jfif" />
+      </div>
+    </div>
+    <div id="footer">&copy; 2020| Designed by Lokesh</div>
+  </body>
+</html>
